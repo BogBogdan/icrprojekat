@@ -1,0 +1,93 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+     border-radius: 10px;
+     text-align: center;
+     width:100%; 
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+  }
+  
+  .innercard {
+     transition: 0.3s;
+     border-radius: 10px;
+     text-align: center;
+     width:100%; 
+     background-color:#04586C;
+  }
+  
+  .bluec {
+    color:#04586C !important;
+  }
+  .invcard {
+    transition: 0.3s;
+     border-radius: 10px;
+     text-align: center;
+     width:100%; 
+  }
+  .halfcardup{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+     border-radius: 10px;
+     text-align: center;
+     width:100%; 
+     background-image: linear-gradient(to bottom, #CDDEE2 50%, #F5F8F9 50%);
+  }
+  .container {
+    padding: 2px 16px;
+     border-radius: 10px;
+  }
+  
+  .innercontainer {
+    padding: 1px 1px;
+     border-radius: 2px;
+  }
+  
+  .roww {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .box {
+    flex: 0 0 30%;
+    height: 100px;
+    margin: 10px;
+    color:#04586C;
+  }
+  
+  .containerr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #04586C;
+  }
+  
+  .textt {
+    flex-basis: 55%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  .imagee {
+    flex-basis: 45%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  img{
+    max-width: 100%;
+    height: auto;
+  }
